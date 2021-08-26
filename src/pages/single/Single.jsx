@@ -1,13 +1,14 @@
 import Sidebar from "../../components/sidebar/Sidebar";
+import SinglePost from "../../components/singlePost/SinglePost";
 import "./Single.scss";
 
-const Singlepost = () => {
+const Single = () => {
   return (
-    <div className="singlepost">
-      {/* Post */}
+    <div className="single">
+      <SinglePost />
       <Sidebar />
     </div>
   );
 };
 
-export default Singlepost;
+export default Single;
