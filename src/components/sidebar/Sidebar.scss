@@ -1,10 +1,11 @@
 @import "../../Global.scss";
 
 .sidebar {
-  flex: 3;
+  flex: 0.5;
+  height: fit-content;
   margin: 20px;
   padding-bottom: 30px;
-  background-color: $whiteColorLight;
+  background-color: $whiteColorXLight;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -17,6 +18,8 @@
 
     & > img {
       margin-top: 15px;
+      width: 150px;
+      height: 150px;
     }
 
     & > p {
@@ -59,7 +62,7 @@
 
     &-Icon {
       font-size: 16px;
-      margin-left: 15px;
+      margin-left: 10px;
       cursor: pointer;
     }
   }
