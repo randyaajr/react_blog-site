@@ -1,0 +1,12 @@
+$mainColor: #0597bb;
+$secondaryColor: #868686;
+// basic colors
+$whiteColor: #fff;
+
+$width: 768px;
+
+*::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
