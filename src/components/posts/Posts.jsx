@@ -1,7 +1,17 @@
+import Post from "../post/Post";
 import "./Posts.scss";
 
 const Posts = () => {
-  return <div></div>;
+  return (
+    <div className="posts">
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+    </div>
+  );
 };
 
 export default Posts;
